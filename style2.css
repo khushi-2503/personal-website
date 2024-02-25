@@ -1,0 +1,181 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather";
+    background-color: #F3EEEA;
+    color: #776B5D;
+
+}
+h1{
+    margin: 0;
+    font-family: "Sacramento";
+    font-size: 90px;
+    color:#776B5D;
+
+}
+h3{
+    font-family: "Montserrat";
+}
+.top-container{
+    background-color:#EBE3D5;
+    position: relative;
+    padding: 200px;
+    padding-bottom: 400px;
+    color: #776B5D;
+}
+.top-butterfly{
+    position: absolute;
+    right: 150px;
+    top: 30px;
+    height: fit-content;
+}
+.footer-link {
+    margin-right: 15px; 
+  }
+  .contact-me{
+    margin:20px;
+  }
+  .skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+
+  }
+  .skill1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+  .skill2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
+  hr{
+    border-style: none;
+    border-color:#776B5D; 
+    border-top-style: dotted ;
+    border-width: 8px;
+    width: 5%;
+}
+
+
+nav {
+    background-color: #EBE3D5;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #776B5D;
+}
+
+nav a:hover {
+    color: #776B5D;
+    background-color:blanchedalmond;
+}
+
+.projects, .blog {
+    margin-top: 100px;
+}
+
+.project-row, .blog-post {
+    margin-bottom: 30px;
+}
+
+.project-row h3, .blog-post h3 {
+    color: #776B5D;
+}
+nav ul li a {
+    color: #776B5D;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+.btn {
+    background-color: #EBE3D5;
+    color: #776B5D;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #776B5D;
+    color: #EBE3D5;
+}
+#scroll-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #FF5733;
+    z-index: 1000;
+    transition: width 0.3s ease;
+}
+
+#scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+.intro-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    font-size: 90px;
+    margin: 0;
+    animation: typing 3s steps(40, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #000;
+    }
+}
+
